@@ -19,6 +19,7 @@ export default function Projects() {
               "/projects/beepdash-5.png",
               "/projects/beepdash-6.png",
             ]}
+            live
           />
         </Reveal>
         <Reveal delay={0.08}>
@@ -31,6 +32,7 @@ export default function Projects() {
               "/projects/lps-3.png",
               "/projects/lps-4.png",
             ]}
+            live
           />
         </Reveal>
         <Reveal delay={0.16}>
@@ -51,6 +53,7 @@ export default function Projects() {
               "/projects/ordo-1.png",
               "/projects/ordo-2.png",
             ]}
+            live
           />
         </Reveal>
         <Reveal delay={0.32}>
@@ -73,6 +76,7 @@ export default function Projects() {
               "/projects/taskflow-1.png",
               "/projects/taskflow-2.png",
             ]}
+            live
           />
         </Reveal>
       </div>
