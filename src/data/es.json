@@ -38,14 +38,14 @@
       "description": "Plataforma IoT SaaS multi-tenant con dashboards en tiempo real, MQTT y firmware ESP32",
       "stack": ["React", "Node.js", "PostgreSQL", "MQTT", "ESP32"],
       "code_url": "https://github.com/NomadicAlternative/ioTech",
-      "demo_url": "#"
+      "demo_url": "https://io-tech-beryl.vercel.app"
     },
     "lps": {
       "title": "Leadership Planning System",
       "description": "Sistema de planificación colaborativa Franklin Covey con informes generados por IA",
       "stack": ["Next.js", "Supabase", "Drizzle ORM", "TanStack Query", "Recharts"],
       "code_url": "https://github.com/NomadicAlternative/leadership-planning-system",
-      "demo_url": "#"
+      "demo_url": "https://leadership-planning-system-v2.vercel.app"
     },
     "beepdash-api": {
       "title": "BeepDash API",
@@ -59,21 +59,21 @@
       "description": "Landing de marca para mi estudio de soluciones digitales para pymes — automatización, software a medida y facturación digital",
       "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
       "code_url": "#",
-      "demo_url": "#"
+      "demo_url": "https://ordo-fywg3t4gd-deepbash.vercel.app"
     },
     "calendario": {
       "title": "Calendario Rama",
       "description": "Calendario compartido de la congregación — sincronización de feeds iCal de rama/estaca, vista de almanaque mensual y PWA instalable",
       "stack": ["Next.js", "Drizzle ORM", "PostgreSQL", "node-ical", "PWA"],
       "code_url": "https://github.com/NomadicAlternative/calendario-rama",
-      "demo_url": "https://calendario-rama-deepbash.vercel.app"
+      "demo_url": "https://calendario-rama.vercel.app"
     },
     "taskflow": {
       "title": "TaskFlow",
       "description": "Organizador de proyectos y tareas para estudiantes y equipos pequeños — Next.js, Prisma y Auth.js",
       "stack": ["Next.js", "Prisma", "PostgreSQL", "Auth.js", "Tailwind CSS"],
       "code_url": "https://github.com/NomadicAlternative/taskflow",
-      "demo_url": "#"
+      "demo_url": "https://taskflow-ivory-alpha-23.vercel.app"
     },
     "live": "En vivo",
     "view_code": "Código",
