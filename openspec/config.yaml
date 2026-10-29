@@ -1,0 +1,54 @@
+# openspec/config.yaml
+schema: spec-driven
+
+context: |
+  Tech stack: Vite 8 + React 19 + TypeScript 6 (bundler mode)
+  Architecture: Single-page application, component-based (React)
+  Styling: Tailwind CSS 4 (with @tailwindcss/vite plugin)
+  Testing: None yet — vitest + @testing-library/react to be installed
+  Linter: ESLint 10 (flat config, typescript-eslint, react-hooks)
+  Type checker: TypeScript 6 (noUnusedLocals, noUnusedParameters, verbatimModuleSyntax)
+  Formatter: Not configured — consider Prettier
+  Design: Figma template "Developer Personal Portfolio (Community)"
+  Sections: Hero, About Me, Projects, Contact Me, Footer
+  Target: Personal developer portfolio (BeepDash, LPS showcases)
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+    - Reference Figma design sections explicitly
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+    - Each spec MUST map to a Figma section
+  design:
+    - Include component tree for complex sections
+    - Document architecture decisions with rationale
+    - Use React 19 patterns (no useMemo/useCallback — React Compiler)
+  tasks:
+    - Group by Figma section
+    - Keep tasks completable in one session
+    - Use hierarchical numbering (e.g., 1. Hero, 1.1 Hero Markup)
+  apply:
+    - Follow existing code patterns (Tailwind v4, React 19)
+    - Prefer standalone components
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: "npm run build"
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas
+
+testing:
+  strict_tdd: false
+  runner: null
+  unit: null
+  integration: null
+  e2e: null
+  coverage: false
+  linter: eslint
+  type_checker: tsc
+  formatter: null
+  note: "Install vitest and @testing-library/react before enabling TDD"

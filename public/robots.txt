@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://web-self-xi-73.vercel.app/sitemap.xml

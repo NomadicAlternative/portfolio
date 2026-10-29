@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "title": "Hero",
+    "description": "Full-Stack Developer especializado en SaaS, IoT y sistemas conectados. Combino experiencia en electrónica y software para construir productos completos — desde firmware ESP32 hasta aplicaciones web escalables.",
+    "cta_github": "GitHub",
+    "cta_linkedin": "LinkedIn"
+  },
+  "what-i-build": {
+    "title": "Lo que construyo",
+    "kicker": "Especialidades",
+    "saas": { "title": "Plataformas SaaS", "description": "Aplicaciones multi-tenant con dashboards en tiempo real" },
+    "iot": { "title": "Soluciones IoT", "description": "ESP32, MQTT y ecosistemas de dispositivos conectados" },
+    "tools": { "title": "Herramientas de negocio", "description": "Dashboards, reporting y automatización de flujos" },
+    "ai": { "title": "Integración de IA", "description": "IA aplicada a productividad y toma de decisiones" }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "kicker": "Trayectoria",
+    "bio": "Mi formación comenzó en la electrónica, reparando y diseñando circuitos. Tras años como técnico entendí que necesitaba aprender a programar, y lo que empezó como una herramienta se convirtió en pasión. Hoy integrar electrónica y software no es solo una necesidad técnica: es donde construyo soluciones completas.\n\nActualmente curso una licenciatura en Software Development en Brigham Young University – Idaho mientras desarrollo productos digitales de principio a fin. No me limito al IoT: soy desarrollador de software y construyo aplicaciones web, plataformas SaaS y sistemas conectados de forma independiente.",
+    "timeline": [
+      { "year": "2000\u20132011", "title": "Técnico Electrónico", "description": "Construcción, reparación y diseño de sistemas electrónicos. Desarrollo e implementación de dispositivos IoT con microcontroladores." },
+      { "year": "2024\u20132026", "title": "Software Development", "description": "Cursando actualmente una licenciatura en desarrollo de software en Brigham Young University – Idaho (BYU-Idaho)." },
+      { "year": "2025\u2013Presente", "title": "Full-Stack Developer", "description": "Desarrollo independiente de plataformas web completas — IoT, SaaS, dashboards en tiempo real y herramientas de productividad." }
+    ]
+  },
+  "skills": {
+    "title": "Skills y Tecnologías",
+    "kicker": "Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "iot_firmware": "IoT y Firmware"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "kicker": "Trabajo seleccionado",
+    "beepdash": {
+      "title": "BeepDash",
+      "description": "Plataforma IoT SaaS multi-tenant con dashboards en tiempo real, MQTT y firmware ESP32",
+      "stack": ["React", "Node.js", "PostgreSQL", "MQTT", "ESP32"],
+      "code_url": "https://github.com/NomadicAlternative/ioTech",
+      "demo_url": "#"
+    },
+    "lps": {
+      "title": "Leadership Planning System",
+      "description": "Sistema de planificación colaborativa Franklin Covey con informes generados por IA",
+      "stack": ["Next.js", "Supabase", "Drizzle ORM", "TanStack Query", "Recharts"],
+      "code_url": "https://github.com/NomadicAlternative/leadership-planning-system",
+      "demo_url": "#"
+    },
+    "beepdash-api": {
+      "title": "BeepDash API",
+      "description": "API REST multi-tenant con autenticación JWT, bridge MQTT, telemetría TimescaleDB y aislamiento RLS. Documentada con Swagger, +80% cobertura de tests.",
+      "stack": ["Node.js", "Express", "PostgreSQL", "MQTT", "JWT", "Swagger"],
+      "code_url": "https://github.com/NomadicAlternative/ioTech",
+      "demo_url": "#"
+    },
+    "ordo": {
+      "title": "Ordo",
+      "description": "Landing de marca para mi estudio de soluciones digitales para pymes — automatización, software a medida y facturación digital",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
+      "code_url": "#",
+      "demo_url": "#"
+    },
+    "calendario": {
+      "title": "Calendario Rama",
+      "description": "Calendario compartido de la congregación — sincronización de feeds iCal de rama/estaca, vista de almanaque mensual y PWA instalable",
+      "stack": ["Next.js", "Drizzle ORM", "PostgreSQL", "node-ical", "PWA"],
+      "code_url": "https://github.com/NomadicAlternative/calendario-rama",
+      "demo_url": "https://calendario-rama-deepbash.vercel.app"
+    },
+    "taskflow": {
+      "title": "TaskFlow",
+      "description": "Organizador de proyectos y tareas para estudiantes y equipos pequeños — Next.js, Prisma y Auth.js",
+      "stack": ["Next.js", "Prisma", "PostgreSQL", "Auth.js", "Tailwind CSS"],
+      "code_url": "https://github.com/NomadicAlternative/taskflow",
+      "demo_url": "#"
+    },
+    "live": "En vivo",
+    "view_code": "Código",
+    "live_demo": "Demo"
+  },
+  "howIWork": {
+    "title": "Cómo Trabajo",
+    "kicker": "Proceso",
+    "steps": [
+      { "title": "Especificar", "description": "Requisitos y criterios de aceptación definidos primero — cada tarea verificable", "icon": "spec" },
+      { "title": "Explorar", "description": "El código y los requisitos existentes se exploran antes de escribir nada", "icon": "explore" },
+      { "title": "Construir", "description": "Test-first (RED → GREEN → refactor), en unidades atómicas con commits revisables", "icon": "build" },
+      { "title": "Revisar", "description": "Revisión independiente desde varias lentes — riesgo, resiliencia, legibilidad y confiabilidad", "icon": "review" }
+    ]
+  },
+  "contact": {
+    "title": "Construyamos algo juntos",
+    "kicker": "Contacto",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "nav": {
+    "hero": "Inicio",
+    "build": "Construyo",
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "how": "Cómo trabajo",
+    "contact": "Contacto"
+  }
+}

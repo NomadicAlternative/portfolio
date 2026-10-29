@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "title": "Hero",
+    "description": "Full-Stack Developer specialized in SaaS, IoT, and connected systems. I combine experience in electronics and software to build complete products — from ESP32 firmware to scalable web applications.",
+    "cta_github": "GitHub",
+    "cta_linkedin": "LinkedIn"
+  },
+  "what-i-build": {
+    "title": "What I Build",
+    "kicker": "Expertise",
+    "saas": { "title": "SaaS Platforms", "description": "Multi-tenant applications with real-time dashboards" },
+    "iot": { "title": "IoT Solutions", "description": "ESP32, MQTT, and connected device ecosystems" },
+    "tools": { "title": "Business Tools", "description": "Dashboards, reporting, and workflow automation" },
+    "ai": { "title": "AI Integration", "description": "Applied AI for productivity and decision-making" }
+  },
+  "about": {
+    "title": "About Me",
+    "kicker": "Background",
+    "bio": "My background began in electronics, repairing and designing circuits. After years as a technician I realized I needed to learn to code, and what started as a tool became a passion. Today, combining electronics and software is not just a technical requirement — it's where I build complete solutions.\n\nI'm currently pursuing a degree in Software Development at Brigham Young University – Idaho while shipping digital products end to end. I'm not limited to IoT: I'm a software developer who builds web applications, SaaS platforms, and connected systems independently.",
+    "timeline": [
+      { "year": "2000\u20132011", "title": "Electronics Technician", "description": "Built, repaired, and designed electronic systems. Development and implementation of IoT devices with microcontrollers." },
+      { "year": "2024\u20132026", "title": "Software Development", "description": "Currently pursuing a degree in software development at Brigham Young University – Idaho (BYU-Idaho)." },
+      { "year": "2025\u2013Present", "title": "Full-Stack Developer", "description": "Independent development of complete web platforms — IoT, SaaS, real-time dashboards, and productivity tools." }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "kicker": "Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "iot_firmware": "IoT & Firmware"
+  },
+  "projects": {
+    "title": "Projects",
+    "kicker": "Selected Work",
+    "beepdash": {
+      "title": "BeepDash",
+      "description": "Multi-tenant IoT SaaS platform with real-time dashboards, MQTT, and ESP32 firmware",
+      "stack": ["React", "Node.js", "PostgreSQL", "MQTT", "ESP32"],
+      "code_url": "https://github.com/NomadicAlternative/ioTech",
+      "demo_url": "#"
+    },
+    "lps": {
+      "title": "Leadership Planning System",
+      "description": "Franklin Covey collaborative planning app with AI-generated reports",
+      "stack": ["Next.js", "Supabase", "Drizzle ORM", "TanStack Query", "Recharts"],
+      "code_url": "https://github.com/NomadicAlternative/leadership-planning-system",
+      "demo_url": "#"
+    },
+    "beepdash-api": {
+      "title": "BeepDash API",
+      "description": "Multi-tenant REST API with JWT auth, MQTT bridge, TimescaleDB telemetry, and RLS isolation. Swagger-documented, 80%+ test coverage.",
+      "stack": ["Node.js", "Express", "PostgreSQL", "MQTT", "JWT", "Swagger"],
+      "code_url": "https://github.com/NomadicAlternative/ioTech",
+      "demo_url": "#"
+    },
+    "ordo": {
+      "title": "Ordo",
+      "description": "Branded landing page for my SME digital solutions studio — automation, custom software, and digital invoicing",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
+      "code_url": "#",
+      "demo_url": "#"
+    },
+    "calendario": {
+      "title": "Calendario Rama",
+      "description": "Shared congregation calendar — read-only iCal sync from ward/stake feeds, monthly almanac view, installable PWA",
+      "stack": ["Next.js", "Drizzle ORM", "PostgreSQL", "node-ical", "PWA"],
+      "code_url": "https://github.com/NomadicAlternative/calendario-rama",
+      "demo_url": "https://calendario-rama-deepbash.vercel.app"
+    },
+    "taskflow": {
+      "title": "TaskFlow",
+      "description": "Project and task organizer for students and small teams — Next.js, Prisma, and Auth.js",
+      "stack": ["Next.js", "Prisma", "PostgreSQL", "Auth.js", "Tailwind CSS"],
+      "code_url": "https://github.com/NomadicAlternative/taskflow",
+      "demo_url": "#"
+    },
+    "live": "Live",
+    "view_code": "Code",
+    "live_demo": "Demo"
+  },
+  "howIWork": {
+    "title": "How I Work",
+    "kicker": "Process",
+    "steps": [
+      { "title": "Spec", "description": "Requirements and acceptance criteria defined first — every task verifiable", "icon": "spec" },
+      { "title": "Explore", "description": "Existing code and requirements explored before writing anything", "icon": "explore" },
+      { "title": "Build", "description": "Test-first (RED → GREEN → refactor), in atomic units with reviewable commits", "icon": "build" },
+      { "title": "Review", "description": "Independent review from multiple lenses — risk, resilience, readability, reliability", "icon": "review" }
+    ]
+  },
+  "contact": {
+    "title": "Let's build something together",
+    "kicker": "Contact",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "nav": {
+    "hero": "Hero",
+    "build": "Build",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "how": "How I Work",
+    "contact": "Contact"
+  }
+}

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-surface: #0b0b0a;
+  --color-surface-2: #141413;
+  --color-line: #1c1c1b;
+  --color-ink: #f7f7f5;
+  --color-muted: #b2b2ab;
+  --color-dim: #96968f;
+  --color-accent: #fb923c;
+  --color-accent-soft: #fdba74;
+  --color-secondary: #67e8f9;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #050505;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Chevron de marca que parpadea gris ↔ naranja */
+@keyframes brand-blink {
+  from {
+    color: var(--color-muted);
+  }
+  to {
+    color: var(--color-accent);
+  }
+}
+
+/* Halo frío de fondo que deriva lentamente */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 130% 100% at 50% 40%, transparent 45%, rgba(0, 0, 0, 0.6) 100%),
+    radial-gradient(ellipse 72vmax 52vmax at 48% 44%, rgba(203, 213, 225, 0.16), transparent 70%),
+    radial-gradient(ellipse 40vmax 32vmax at 84% 16%, rgba(148, 163, 184, 0.13), transparent 72%);
+  will-change: transform;
+  animation: bg-drift 30s ease-in-out infinite alternate;
+}
+
+@keyframes bg-drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(-2%, -1%, 0) scale(1.05);
+  }
+}
+
+/* En móvil el halo se atenúa para no competir con el contenido */
+@media (max-width: 768px) {
+  body::before {
+    background:
+      radial-gradient(ellipse 130% 100% at 50% 40%, transparent 45%, rgba(0, 0, 0, 0.5) 100%),
+      radial-gradient(ellipse 72vmax 52vmax at 48% 44%, rgba(203, 213, 225, 0.08), transparent 70%),
+      radial-gradient(ellipse 40vmax 32vmax at 84% 16%, rgba(148, 163, 184, 0.06), transparent 72%);
+  }
+}
