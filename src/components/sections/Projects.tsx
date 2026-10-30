@@ -63,7 +63,6 @@ export default function Projects() {
             screenshots={[
               "/projects/cal-1.png",
               "/projects/cal-2.png",
-              "/projects/cal-3.png",
             ]}
             live
           />
